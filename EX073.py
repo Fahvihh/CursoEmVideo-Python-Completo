@@ -1,0 +1,18 @@
+Brasileirao = ("Palmeiras", 'Flamengo', 'Red Bull Bragantino', 'Cruzeiro', 'Fluminense',
+'Atlético-MG', 'Bahia', 'Botafogo', 'Ceará', 'Corinthians', 'Fortaleza', 'Mirassol',
+'Internacional', 'Santos', 'São Paulo', 'Juventude', 'Grêmio', 'Sport', 'Vasco', 'Vitória')
+print("Lista de times do BRASILEIRÃO atualizada com os 20 primeiros")
+print("=*"*30)
+print(Brasileirao)
+print("O TOP 5")
+print("=*"*30)
+print(Brasileirao[0:4])
+print("OS ÚLTIMOS 4 COLOCADOS")
+print("=*"*30)
+print(Brasileirao[-4:])
+print("ORDEM ALFABÉTICA")
+print("=*"*30)
+print(sorted(Brasileirao))
+print("POSIÇÃO DO CORINTHIANS")
+print("=*"*30)
+print(f"O corinthians está na posição: {Brasileirao.index("Corinthians")+1}°")

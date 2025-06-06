@@ -1,0 +1,5 @@
+num = int(input('DIGITE UM VALOR [0, 9999]: '))
+print(f'UNIDADE: {num//1 %10}')
+print(f'CENTENA: {num//10 %10}')
+print(f'DEZENA: {num//100 %10}')
+print(f'MILHAR: {num//1000 %10}')

@@ -1,0 +1,5 @@
+NOME = str(input('DIGITE SEU NOME E SOBRENOME: ')).strip()
+print(f'NOME EM MAIÚSCULO: {NOME.upper()}')
+print(f'NOME EM MINÚSCULO: {NOME.lower()}')
+print(f'TOTAL DE LETRAS: {len(NOME)- NOME.count(' ')}')
+print(f'PRIMEIRO NOME TEM {NOME.find(' ')} LETRAS.')
